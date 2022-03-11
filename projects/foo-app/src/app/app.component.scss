@@ -1,0 +1,5 @@
+@use '@labs/foo-lib' as labs;
+
+:host {
+  @include labs.button;
+}
